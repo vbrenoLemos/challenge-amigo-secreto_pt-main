@@ -27,7 +27,7 @@ function adicionarAmigo(){
 function sortearAmigo(){
     let qntAmigos = amigos.length
 
-    let numeroSortido = parseInt(Math.random() * qntAmigos + 1)
+    let numeroSortido = parseInt(Math.random() * qntAmigos)
 
     let result = document.getElementById('resultado');
 
